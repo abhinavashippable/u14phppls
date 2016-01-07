@@ -1,5 +1,5 @@
 FROM drydock/u14:prod
 
-ADD . /u14php
+ADD . /u14phppls
 
-RUN /u14php/install.sh
+RUN /u14phppls/install.sh
